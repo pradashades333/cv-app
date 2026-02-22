@@ -19,7 +19,7 @@ function Experience({ data, onSubmit }) {
   };
 
   return (
-    <div>
+    <div className="section">
       {isEditing ? (
         <form onSubmit={handleSubmit}>
           <h2>Practical Experience</h2>

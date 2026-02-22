@@ -3,8 +3,8 @@ body {
   max-width: 600px;
   margin: 40px auto;
   padding: 0 20px;
-  background: #fff;
-  color: #000;
+  background: #6a0dad;
+  color: #fff;
 }
 
 h1 {
@@ -20,11 +20,10 @@ h2 {
   letter-spacing: 1px;
 }
 
-div > div,
-form {
+.section {
   background: #fff;
-  border: 1px solid #000;
-  border-radius: 0;
+  color: #000;
+  border-radius: 4px;
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -40,31 +39,27 @@ label {
 input {
   width: 100%;
   padding: 8px;
-  border: 1px solid #000;
-  border-radius: 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
   box-sizing: border-box;
-  background: #fff;
-  color: #000;
 }
 
 input:focus {
   outline: none;
-  border-color: #000;
-  background: #f9f9f9;
+  border-color: #6a0dad;
 }
 
 button {
   margin-top: 16px;
   padding: 8px 16px;
-  background: #000;
+  background: #6a0dad;
   color: #fff;
   border: none;
-  border-radius: 0;
+  border-radius: 4px;
   cursor: pointer;
   font-size: 0.85rem;
-  letter-spacing: 0.5px;
 }
 
 button:hover {
-  background: #333;
+  background: #850ddc;
 }

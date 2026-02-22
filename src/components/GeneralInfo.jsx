@@ -19,7 +19,7 @@ function GeneralInfo({ data, onSubmit }) {
   };
 
   return (
-    <div>
+    <div className="section">
       {isEditing ? (
         <form onSubmit={handleSubmit}>
           <h2>General Info</h2>
